@@ -5,7 +5,7 @@ Library    Selenium2Library
 *** Variables ***
 ${BROWSER} =  Chrome
 ${eggTimerURL} =  https://e.ggtimer.com
-${CounterValue}     20
+${CounterValue}     25
 ${InputElement} =  name=start_a_timer
 ${Submit_Button} =   id=timergo
 ${elements}
