@@ -1,5 +1,6 @@
 *** Settings ***
 Library    Selenium2Library
+Library     String
 
 Documentation    Testing CountDown on e.ggtimer.com
 Resource     ../Resources/PO/CountDown.robot
