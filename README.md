@@ -16,7 +16,7 @@ Once pip is installed, then simply run:
 `Pip install robotframework`
 
 Verify Installation:
-After installing robot framework, you should be able to execute the created runner scripts with   --version option and get both Robot Framework and interpreter versions as a result.
+After installing robot fralsdmework, you should be able to execute the created runner scripts with   --version option and get both Robot Framework and interpreter versions as a result.
 
                         `robot --version`
                         Robot Framework 3.1.1 (Python 2.7.15rc1 on linux2)
@@ -40,13 +40,13 @@ Note:
 The above command will create Results directory if not found.
 
 
-## Possible Improvements
+## Improvements
 
-
-+ add PLATFORM LIMITATIONS
++ add PLATFORM/BROWSER LIMITATIONS (This works on Ubuntu 18.04, and Chrome browser)
 + Verify audio sound
 
 ## BUGS
-+At random times, Alert pops off once a value is submitted, even before the end of the countdown period
++ At random times, Alert pops off once a value is submitted, even before the end of the countdown period
 
+##Highlights
 ![Screenshot](Screenshot.png)

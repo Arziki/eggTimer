@@ -1,20 +1,17 @@
 *** Settings ***
 Library    Selenium2Library
 
-
 Documentation    Testing CountDown on e.ggtimer.com
 Resource     ../Resources/PO/CountDown.robot
 Resource     ../Resources/eggTimerApp.robot
 Resource     ../Data/eggTimerData.robot
 Resource     ../Resources/CommonCommands/CommonLanding.robot
 Resource     ../Resources/PO/CountDown.robot
-#Resource     ../Resources/CommonCommands/CommonLanding.robot
 Test Setup       Begin App Test
 Test Teardown    End App Test
 
 *** Variables ***
 
-#robot -d Results  --timestamp  Tests/CountingDown.robot
 *** Keywords ***
 [Tags]    Timer CountDown
 
